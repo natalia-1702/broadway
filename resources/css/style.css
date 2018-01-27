@@ -1,3 +1,4 @@
+/* Text is centered, font-family all body*/
 body {
 	font-family: Helvetica;
 	text-align: center;
@@ -9,20 +10,23 @@ body {
 	font-weight: bold;
 }
 
+/* footer */
 .footer {
-	color: white;
 	text-align: left;
 	background-color: dimgray;
-	
 }
+.footer li {
+	display: inline;
+}
+a, .footer {
+	color: white;
+}
+
 /* font-size */
 .header nav ul li a {
 	font-size: 18px;
 }
 
-.footer li {
-	display: inline;
-}
 h3 {
 	font-size: 23px;
 	font-weight: bold;
@@ -43,8 +47,4 @@ p {
 /* In unordered list list removes marks*/
 li {
 	list-style-type: none;
-}
-/*color*/
-a {
-	color: white;
 }
