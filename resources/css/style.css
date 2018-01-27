@@ -15,15 +15,14 @@ body {
 	text-align: left;
 	background-color: dimgray;
 }
-.footer li {
-	display: inline;
-}
-a, .footer {
+
+.btn, 
+.footer {
 	color: white;
 }
 
 /* font-size */
-.header nav ul li a {
+.header .btn {
 	font-size: 18px;
 }
 
@@ -43,8 +42,4 @@ p {
 
 .header h1 {
 	font-size: 70px;
-}
-/* In unordered list list removes marks*/
-li {
-	list-style-type: none;
 }
