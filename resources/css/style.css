@@ -1,16 +1,12 @@
+body {
+	font-family: Helvetica;
+	text-align: center;
+}
 /* Image, Color white, Bold text in the "header" and "line"*/
 .header, .line{
 	background-image: url(../images/the-flatiron-building.png);
 	color: white;
 	font-weight: bold;
-}
-
-.header h1 {
-	font-size: 70px;
-}
-
-.header nav ul li a {
-	font-size: 18px;
 }
 
 .footer {
@@ -19,10 +15,9 @@
 	background-color: dimgray;
 	
 }
-
-body {
-	font-family: Helvetica;
-	text-align: center;
+/* font-size */
+.header nav ul li a {
+	font-size: 18px;
 }
 
 .footer li {
@@ -41,9 +36,15 @@ h2 {
 p {
 	font-size: 14px;
 }
+
+.header h1 {
+	font-size: 70px;
+}
+/* In unordered list list removes marks*/
 li {
 	list-style-type: none;
 }
+/*color*/
 a {
 	color: white;
 }
